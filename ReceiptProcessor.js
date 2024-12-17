@@ -1,5 +1,5 @@
-import { generateReceiptId } from "./ReceiptIdGenerator"; // import generateReceiptId function
-import { generateReceiptPoints } from "./ReceiptPointsGenerator"; // import generateReceiptPoints function
+import { generateReceiptId } from "./GenerateReceiptId"; // import generateReceiptId function
+import { generateReceiptPoints } from "./PointCalculator"; // import generateReceiptPoints function
 
 const express = require("express"); // import express
 const app = express(); // create express app
