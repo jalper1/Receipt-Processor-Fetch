@@ -1,3 +1,4 @@
+// define function to generate points based on receipt data
 function generateReceiptPoints(receiptData) {
   var points = 0; // variable to track points
 
@@ -38,4 +39,4 @@ function generateReceiptPoints(receiptData) {
   return points; // return total points
 }
 
-export default generateReceiptPoints;
+export { generateReceiptPoints };

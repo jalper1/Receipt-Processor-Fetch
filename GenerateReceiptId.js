@@ -14,4 +14,4 @@ function generateReceiptId() {
   );
 }
 
-export default generateReceiptId;
+export { generateReceiptId };

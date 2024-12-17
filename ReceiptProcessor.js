@@ -1,7 +1,8 @@
-import { generateReceiptId } from "./GenerateReceiptId"; // import generateReceiptId function
-import { generateReceiptPoints } from "./PointCalculator"; // import generateReceiptPoints function
+import { generateReceiptId } from "./GenerateReceiptId.js"; // import generateReceiptId function
+import { generateReceiptPoints } from "./PointCalculator.js"; // import generateReceiptPoints function
+import express from "express"; // import express
 
-const express = require("express"); // import express
+//const express = require("express"); // import express
 const app = express(); // create express app
 const PORT = process.env.PORT || 4000; // define port number
 
