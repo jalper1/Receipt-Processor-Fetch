@@ -29,7 +29,7 @@ describe("API Routes", () => {
           price: "3.35",
         },
         {
-          shortDescription: "   Klarbrunn 12-PK 12 FL OZ  ", // Contains extra spaces to simulate real-world data
+          shortDescription: "   Klarbrunn 12-PK 12 FL OZ  ",
           price: "12.00",
         },
       ],

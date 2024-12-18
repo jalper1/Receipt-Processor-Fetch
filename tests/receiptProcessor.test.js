@@ -1,7 +1,6 @@
 // Importing the function that calculates points based on receipt details
 import { calculatePoints } from "../utils/pointCalculator.js";
 
-// Grouping related tests under a single describe block
 describe("Receipt Points Calculation", () => {
   // Test case to verify the points calculation for a sample receipt
   test("calculates points correctly for sample receipt", () => {
@@ -29,7 +28,7 @@ describe("Receipt Points Calculation", () => {
           price: "3.35",
         },
         {
-          shortDescription: "   Klarbrunn 12-PK 12 FL OZ  ", // Contains extra spaces to simulate real-world data
+          shortDescription: "   Klarbrunn 12-PK 12 FL OZ  ",
           price: "12.00",
         },
       ],
