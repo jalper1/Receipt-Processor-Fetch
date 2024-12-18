@@ -15,6 +15,11 @@
     "express": "^4.19.2",
     "joi": "^17.13.3"
   },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  },
   "devDependencies": {
     "@babel/preset-env": "^7.26.0",
     "babel-jest": "^29.7.0",
