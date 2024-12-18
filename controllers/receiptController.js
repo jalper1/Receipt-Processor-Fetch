@@ -1,5 +1,5 @@
-import { generateReceiptId } from "../utils/GenerateReceiptId.js";
-import { calculatePoints } from "../utils/PointCalculator.js";
+import { generateReceiptId } from "../utils/generateReceiptId.js";
+import { calculatePoints } from "../utils/pointCalculator.js";
 import { validateReceipt } from "../validations/receiptValidation.js";
 
 const receipts = {}; // In-memory storage for receipts
