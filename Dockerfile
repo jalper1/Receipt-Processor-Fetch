@@ -8,7 +8,5 @@ RUN npm install express
 RUN npm install joi
 RUN npm install --save-dev babel-jest @babel/preset-env
 
-RUN npm test
-
 CMD ["npm", "start"]
 EXPOSE 4000

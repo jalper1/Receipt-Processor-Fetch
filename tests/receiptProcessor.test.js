@@ -1,4 +1,4 @@
-import { calculatePoints } from "../utils/PointCalculator.js";
+import { calculatePoints } from "../utils/pointCalculator.js";
 
 describe("Receipt Points Calculation", () => {
   test("calculates points correctly for sample receipt", () => {
